@@ -172,7 +172,7 @@ display:none;
   border-radius: 9%;
   width: 37%;
   align-items: center;
-  background-color: black;
+  background-color: #d45a0e;
   color:white;
   cursor: grab;
 }
@@ -183,9 +183,6 @@ display:none;
   cursor: grab;
 
 }
-
-
-
 
 /** Contact  ***/
 
