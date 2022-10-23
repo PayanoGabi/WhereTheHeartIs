@@ -184,10 +184,6 @@ display:none;
 
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b5421291f83cf6f47d409e5c2f926e2a427648b7
 /** Contact  ***/
 
 .contact-container {
@@ -317,6 +313,9 @@ display:none;
 
 a {
   font-family: 'Spartan', sans-serif;
+}
+#mobilePro{
+  display: none;
 }
 
 .pro-col-1 {
@@ -508,6 +507,14 @@ text-align: center;
 /* Extra small devices (phones, 600px and down) */
 
 
+@media only screen and (max-width: 1155px) {
+  #largeHead{
+    font-size: 17px !important;
+  
+  }
+
+}
+
 @media only screen and (max-width: 685px) {
 
   nav ul {
@@ -597,7 +604,212 @@ text-align: center;
 display: unset;
 }
 
+#col-2-row-1 .frontCard{
+  display: none;
 
+}
+#col-2-row-1 .backCard{
+  display: none;
 
+}
 
+#col-2-row-2 h1 {
+  padding: 20px;
+}
+#col-2-row-3 .frontCard{
+  display: none;
+  transform: none;
+
+}
+
+#col-2-row-3 .backCard{
+  display: none;
+  transform: none;
+
+}
+
+#col-2-row-3{
+  transform: none;
+
+}
+
+#mobilePro{
+      margin: auto;
+      width: 89%;
+      height: 53%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "projectOne projectTwo projectThree"
+        "projectFour projectFive projectSix"
+        "projectSeven projectEight projectNine";
+    }
+    
+    .projectOne { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectOne; 
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+    }
+    .projectOne img{
+      content: url(https://gabipayano.com/images/icons8-game-controller-32.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectTwo { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectTwo; 
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+    }
+    .projectTwo img{
+      content: url(https://gabipayano.com/images/icons8-game-controller-32.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectThree { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectThree;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+
+     .projectThree img{
+      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectFour { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectFour;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+
+     .projectFour img{
+      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectFive { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectFive;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+     .projectFive img{
+      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectSix {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center; 
+      grid-area: projectSix;  
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+    }
+    .projectSix img{
+      content: url(https://gabipayano.com/images/icons8-html-filetype-26.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    
+    .projectSeven { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectSeven;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+     .projectSeven img{
+      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    .projectEight { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectEight;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+     .projectEight img{
+      content: url(https://gabipayano.com/images/icons8-extension-32.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
+    .projectNine { 
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      grid-area: projectNine;
+      background: black;
+      border-radius: 56%;
+      margin: 23%;
+      height: 38%;
+     }
+     .projectNine img{
+      content: url(https://gabipayano.com/images/icons8-extension-32.png);
+      width: 65%;
+      height: 70%;
+
+    }
+    
 }

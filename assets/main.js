@@ -115,8 +115,35 @@ var x = window.matchMedia("(max-width: 700px)")
 responsiveBreakpointFunction(x)
 
 
-//x.addListener(responsiveBreakpointFunction);
+document.getElementsByClassName('hoverNotify')[0].onclick = function(){
+  alert('Please hover over tiles')
 
+}
+
+
+document.getElementById('comingSoon').onclick = function(e){
+
+  alert('Coming Soon to Chrome Web Store Extensions.');
+  return;
+
+  e.stopPropagation();
+
+
+}
+document.getElementById('comingSoon2').onclick = function(e){
+
+  alert('Coming Soon to Chrome Web Store Extensions.');
+  e.stopPropagation();
+
+
+
+}
+document.getElementById('comingSoon').ontouchstart = function(){
+
+  alert('Coming Soon to Chrome Web Store Extensions')
+
+
+}
 
 
 
