@@ -128,19 +128,29 @@ document.getElementById('comingSoon').onclick = function(e){
 
   e.stopPropagation();
 
+}
+document.getElementById('comingSoon').onclick = function(e){
+
+  alert('Coming Soon to Chrome Web Store Extensions.');
+  return;
+
+  e.stopPropagation();
+
 
 }
-document.getElementById('comingSoon2').onclick = function(e){
+
+document.getElementById('comingSoon').ontouchstart = function(e){
+
+  alert('Coming Soon to Chrome Web Store Extensions');
+  e.stopPropagation();
+
+
+}
+document.getElementById('comingSoon2').ontouchstart = function(e){
 
   alert('Coming Soon to Chrome Web Store Extensions.');
   e.stopPropagation();
 
-
-
-}
-document.getElementById('comingSoon').ontouchstart = function(){
-
-  alert('Coming Soon to Chrome Web Store Extensions')
 
 
 }

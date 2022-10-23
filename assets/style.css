@@ -604,6 +604,19 @@ text-align: center;
 display: unset;
 }
 
+
+.pro-col-2 {
+  background-color: #d45a0e;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 0fr 0fr 0fr;
+  gap: 0px 0px;
+  grid-template-areas:
+      "col-2-row-1"
+      "col-2-row-2"
+      "col-2-row-3";
+}
+
 #col-2-row-1 .frontCard{
   display: none;
 
@@ -615,6 +628,16 @@ display: unset;
 
 #col-2-row-2 h1 {
   padding: 20px;
+}
+#col-2-row-2 p{
+  display: none;
+
+}
+#col-2-row-2 h1{
+
+  margin: 29px 0px 21px 0px;
+
+
 }
 #col-2-row-3 .frontCard{
   display: none;
@@ -654,7 +677,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectOne; 
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -672,7 +695,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectTwo; 
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -690,7 +713,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectThree;
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -709,7 +732,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectFour;
-      background: black;
+      background:#d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -728,7 +751,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectFive;
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -746,7 +769,7 @@ display: unset;
       align-content: center;
       align-items: center; 
       grid-area: projectSix;  
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -765,7 +788,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectSeven;
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -782,7 +805,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectEight;
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
@@ -800,7 +823,7 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectNine;
-      background: black;
+      background: #d45a0f;
       border-radius: 56%;
       margin: 23%;
       height: 38%;
