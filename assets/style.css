@@ -701,7 +701,7 @@ display: unset;
       height: 38%;
     }
     .projectTwo img{
-      content: url(https://gabipayano.com/images/icons8-game-controller-32.png);
+      content: url(/images/icons8-game-controller-32.png);
       width: 65%;
       height: 70%;
 
@@ -739,7 +739,7 @@ display: unset;
      }
 
      .projectFour img{
-      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      content: url(/images/icons8-website-50.png);
       width: 65%;
       height: 70%;
 
@@ -757,7 +757,7 @@ display: unset;
       height: 38%;
      }
      .projectFive img{
-      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      content: url(/images/icons8-website-50.png);
       width: 65%;
       height: 70%;
 
@@ -775,7 +775,7 @@ display: unset;
       height: 38%;
     }
     .projectSix img{
-      content: url(https://gabipayano.com/images/icons8-html-filetype-26.png);
+      content: url(/images/icons8-html-filetype-26.png);
       width: 65%;
       height: 70%;
 
@@ -794,7 +794,7 @@ display: unset;
       height: 38%;
      }
      .projectSeven img{
-      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      content: url(/images/icons8-website-50.png);
       width: 65%;
       height: 70%;
 
@@ -811,7 +811,7 @@ display: unset;
       height: 38%;
      }
      .projectEight img{
-      content: url(https://gabipayano.com/images/icons8-extension-32.png);
+      content: url(/images/icons8-extension-32.png);
       width: 65%;
       height: 70%;
 
@@ -829,7 +829,7 @@ display: unset;
       height: 38%;
      }
      .projectNine img{
-      content: url(https://gabipayano.com/images/icons8-extension-32.png);
+      content: url(/images/icons8-extension-32.png);
       width: 65%;
       height: 70%;
 
