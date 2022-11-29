@@ -683,7 +683,7 @@ display: unset;
       height: 38%;
     }
     .projectOne img{
-      content: url(https://gabipayano.com/images/icons8-game-controller-32.png);
+      content: url(/images/icons8-game-controller-32.png);
       width: 65%;
       height: 70%;
 
@@ -720,7 +720,7 @@ display: unset;
      }
 
      .projectThree img{
-      content: url(https://gabipayano.com/images/icons8-website-50.png);
+      content: url(/images/icons8-website-50.png);
       width: 65%;
       height: 70%;
 

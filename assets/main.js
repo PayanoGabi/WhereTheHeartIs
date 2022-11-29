@@ -61,7 +61,7 @@ function responsiveBreakpointFunction(x) {
       // document.body.style.backgroundColor = "yellow";
 
 
-      if(window.location.pathname == '/' || window.location.h == 'http://gabipayano.com/' || window.location.pathname == '/projects.html'){
+      if(window.location.pathname == '/' || window.location.href == 'http://gabipayano.com/' || window.location.pathname == '/projects.html'){
         document.querySelector("#homeButton").remove();
         var buttonMenu = document.querySelector("#main");
         buttonMenu.style.display="block";
@@ -114,13 +114,14 @@ function responsiveBreakpointFunction(x) {
 var x = window.matchMedia("(max-width: 700px)")
 responsiveBreakpointFunction(x)
 
-
+if(window.location.href.indexOf('projects') > 0){
 document.getElementsByClassName('hoverNotify')[0].onclick = function(){
   alert('Please hover over tiles')
 
 }
+}
 
-
+if(window.location.href.indexOf('projects') > 0){
 document.getElementById('comingSoon').onclick = function(e){
 
   alert('Coming Soon to Chrome Web Store Extensions.');
@@ -153,6 +154,7 @@ document.getElementById('comingSoon2').ontouchstart = function(e){
 
 
 
+}
 }
 
 
