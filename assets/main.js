@@ -165,7 +165,7 @@ document.getElementById('comingSoon2').ontouchstart = function(e){
 
 //*Experiences Leaflet API*///
 
-if(window.location.pathname == '/experience'){
+if(window.location.pathname.indexOf('experience') > 0 ){
  
 
 var map = L.map('map').setView([42.3551685, -71.0617590], 13);
