@@ -571,6 +571,16 @@ text-align: center;
 .contact-sectionThree {
   grid-area: contact-sectionOne;
 }
+.contact-container .bottom-two h1{
+  padding: 0%;
+
+}
+
+.contact-container .bottom-two a{
+  padding: 1% 0%;
+
+}
+
 
 /*about*/
 .responsive-about {
