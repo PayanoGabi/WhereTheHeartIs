@@ -672,13 +672,14 @@ display: unset;
       height: 53%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1f;
       gap: 0px 0px;
       grid-auto-flow: row;
       grid-template-areas:
         "projectOne projectTwo projectThree"
         "projectFour projectFive projectSix"
-        "projectSeven projectEight projectNine";
+        "projectSeven projectEight projectNine"
+        "projectTen";
     }
     
     .projectOne { 
