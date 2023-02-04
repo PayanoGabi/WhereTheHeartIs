@@ -114,7 +114,7 @@ function responsiveBreakpointFunction(x) {
 var x = window.matchMedia("(max-width: 700px)")
 responsiveBreakpointFunction(x)
 
-if(window.location.href.indexOf('projects') > 0){
+if(window.location.href.indexOf('projects') > 0 && document.getElementsByClassName('hoverNotify')[0]){
 document.getElementsByClassName('hoverNotify')[0].onclick = function(){
   alert('Please hover over tiles')
 
