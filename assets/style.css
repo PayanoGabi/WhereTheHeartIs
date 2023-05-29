@@ -554,6 +554,7 @@ text-align: center;
 /*contact*/
   .contact-container {
     display: grid;
+    height: 69%;
     grid-template-columns: 2fr;
     grid-template-rows: 0.1fr 1fr 1fr;
     gap: 0px 0px;
