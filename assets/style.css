@@ -14,7 +14,7 @@ min-width: 100%;
  -webkit-overflow-scrolling: touch;
 }
 
-h1,h2, h3, a {
+h1, h2, h3, a {
   overflow-wrap: break-word;
 }
 
@@ -697,7 +697,7 @@ display: unset;
       height: 38%;
     }
     .projectOne img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -715,7 +715,7 @@ display: unset;
       height: 38%;
     }
     .projectTwo img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -734,7 +734,7 @@ display: unset;
      }
 
      .projectThree img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -753,7 +753,7 @@ display: unset;
      }
 
      .projectFour img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -771,7 +771,7 @@ display: unset;
       height: 38%;
      }
      .projectFive img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -789,7 +789,7 @@ display: unset;
       height: 38%;
     }
     .projectSix img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -808,7 +808,7 @@ display: unset;
       height: 38%;
      }
      .projectSeven img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -825,7 +825,7 @@ display: unset;
       height: 38%;
      }
      .projectEight img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
@@ -843,7 +843,7 @@ display: unset;
       height: 38%;
      }
      .projectNine img{
-      content: url(/images/icons8-button-50.png);
+      content: url(/images/icons8-button-64.png);
       width: 65%;
       height: 70%;
 
