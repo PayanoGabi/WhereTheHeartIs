@@ -859,6 +859,10 @@ display: unset;
       content: url(/images/icons8-up-arrow-80.png);
       width: 88%;
       height: 70%;
+      position: sticky;
+      top: 88vh;
+      cursor: pointer;
+      font-size: 20px;
 
     }
     
