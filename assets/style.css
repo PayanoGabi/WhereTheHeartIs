@@ -691,10 +691,8 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectOne; 
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
     }
     .projectOne img{
       content: url(/images/icons8-button-64.png);
@@ -709,10 +707,8 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectTwo; 
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
     }
     .projectTwo img{
       content: url(/images/icons8-button-64.png);
@@ -727,10 +723,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectThree;
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+
      }
 
      .projectThree img{
@@ -746,10 +741,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectFour;
-      /* background:#d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+    
      }
 
      .projectFour img{
@@ -765,10 +759,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectFive;
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+   
      }
      .projectFive img{
       content: url(/images/icons8-button-64.png);
@@ -783,10 +776,9 @@ display: unset;
       align-content: center;
       align-items: center; 
       grid-area: projectSix;  
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+  
     }
     .projectSix img{
       content: url(/images/icons8-button-64.png);
@@ -802,10 +794,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectSeven;
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+
      }
      .projectSeven img{
       content: url(/images/icons8-button-64.png);
@@ -819,10 +810,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectEight;
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+    
      }
      .projectEight img{
       content: url(/images/icons8-button-64.png);
@@ -837,10 +827,9 @@ display: unset;
       align-content: center;
       align-items: center;
       grid-area: projectNine;
-      /* background: #d45a0f; */
       border-radius: 56%;
       margin: 23%;
-      height: 38%;
+      
      }
      .projectNine img{
       content: url(/images/icons8-button-64.png);
