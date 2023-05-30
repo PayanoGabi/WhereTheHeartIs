@@ -617,7 +617,9 @@ text-align: center;
 
 display: unset;
 }
-
+.p-mob{
+  color: black;
+}
 
 .pro-col-2 {
   background-color: #d45a0e;
