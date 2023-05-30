@@ -1,5 +1,9 @@
 //Mouseflow
 
+function scrollBottom(){
+  var element = document.getElementsByTagName("body")[0];
+  element.scrollTop = element.scrollHeight;
+}
 
 var metaTag=document.createElement('meta');
 metaTag.name = "viewport"
