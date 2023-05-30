@@ -850,5 +850,11 @@ display: unset;
       height: 70%;
 
     }
+    #downArrow{
+      content: url(/images/icons8-down-arrow-80.png);
+      width: 88%;
+      height: 70%;
+
+    }
     
 }
