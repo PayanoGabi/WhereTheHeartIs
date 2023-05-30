@@ -855,6 +855,11 @@ display: unset;
       width: 88%;
       height: 70%;
 
+    } #upArrow{
+      content: url(/images/icons8-up-arrow-80.png);
+      width: 88%;
+      height: 70%;
+
     }
     
 }
