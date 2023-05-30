@@ -147,14 +147,7 @@ document.getElementById('comingSoon').ontouchstart = function(e){
 
 
 }
-document.getElementById('comingSoon2').ontouchstart = function(e){
 
-  alert('Coming Soon to Chrome Web Store Extensions.');
-  e.stopPropagation();
-
-
-
-}
 }
 
 
