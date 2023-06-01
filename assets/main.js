@@ -1,11 +1,16 @@
 //Mouseflow
+window.scrollTo(0, 0);
+
 
 function scrollBottom(){
   window.scrollTo(0, document.body.scrollHeight);
 }
 function scrollTop(){
 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+}
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
 }
 
 var metaTag = document.createElement('meta');
