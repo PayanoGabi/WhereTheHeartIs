@@ -1,6 +1,8 @@
 //Mouseflow
 window.scrollTo(0, 0);
-
+if (window.location.href.indexOf('projects') > 0 && window.matchMedia("(max-width: 600px)").matches) {
+  document.querySelector('body').style.overflow = "initial";
+ } 
 
 function scrollBottom(){
   window.scrollTo(0, document.body.scrollHeight);
